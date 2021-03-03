@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(name = "dcatech-seguridad-services")
+@FeignClient(name = "dcatech-seguridad-services", url = "https://nomina-dcatech-api-seguridad.herokuapp.com")
 public interface IUsuarioFeign {
 
 
